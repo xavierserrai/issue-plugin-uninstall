@@ -13,11 +13,15 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-ios": "7.1.0"
+    "cordova-ios": "7.1.0",
+    "cordova-plugin-ionic-webview": "5.0.1"
   },
   "cordova": {
     "platforms": [
       "ios"
-    ]
+    ],
+    "plugins": {
+      "cordova-plugin-ionic-webview": {}
+    }
   }
 }
